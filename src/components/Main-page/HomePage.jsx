@@ -22,13 +22,12 @@ import Aos from "aos";
 import 'aos/dist/aos.css'
 import backgroundimg4 from "./backgroundimg4.mp4";
 import {
+import {
 
   TeamInfo,
   // JudgesInfo,
 
-  htc2023sponsor,
-  poweredBy,
-  mediaPartners
+  htc2023sponsor
 } from "../../Module/General.js";
 
 import Faq from "../FAQ/faq.jsx";
