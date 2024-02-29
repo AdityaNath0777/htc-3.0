@@ -22,7 +22,6 @@ import Aos from "aos";
 import 'aos/dist/aos.css'
 import backgroundimg4 from "./backgroundimg4.mp4";
 import {
-import {
 
   TeamInfo,
   // JudgesInfo,
