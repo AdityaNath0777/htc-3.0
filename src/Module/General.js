@@ -21,6 +21,12 @@
 import devfolio from "../Module/Assets/devfolio/Devfolio_Logo-White.svg";
 import polygon from "../Module/Assets/devfolio/Polygon_Logo-White.svg";
 import ETHIndia from "../Module/Assets/devfolio/ETHIndia.svg";
+import dekhoUni from "../Module/Assets/sponsorsLogos/dekho.jpg"
+// import dekhoUni from "../Module/Assets/sponsorsLogos/dekhoUniversity.png"
+// import bobble from "../Module/Assets/sponsorsLogos/BobbleAI.jpg"
+import bobble from "../Module/Assets/sponsorsLogos/BobbleFan.png"
+import startupNews from "../Module/Assets/sponsorsLogos/startupnews.png"
+
 import filecoin from "../Module/Assets/devfolio/Filecoin White.svg";
 import celo from "../Module/Assets/devfolio/Celo Logo Color.svg";
 import tezos from "../Module/Assets/devfolio/Tezos_Logo-White.svg";
@@ -513,15 +519,26 @@ const silversponsor = [
   [{ src: pharmeasy, link: "" }],
 ];
 
+const poweredBy = [
+  [
+    {src: bobble, link: "https://fanstore.bobble.ai/", alt: "BOBBLE AI LOGO" } 
+  ]
+]
+const mediaPartners = [
+  [
+    { src: startupNews, link: "https://startupnews.fyi/", alt: "STARTUPNEWS LOGO" },
+  ]
+]
 const htc2023sponsor = [
   [
-    { src: devfolio, link: "https://devfolio.co", alt: "DEVFOLIO LOGO" },
+    { src: devfolio, link: "https://devfolio.co/", alt: "DEVFOLIO LOGO" },
     { src: polygon, link: "https://polygon.technology/", alt: "POLYGON LOGO" },
     // { src: solana, link: "", alt: "SOLANA LOGO" },
-    { src: ETHIndia, link: "", alt: "ETH INDIA LOGO" },
+    { src: ETHIndia, link: "https://ethindia.co/", alt: "ETH INDIA LOGO" },
+    { src: dekhoUni, link: "https://dekhouniversity.com/", alt: "DEKHO UNIVERSITY LOGO", class: "dekho-logo"},
   ],
+
   // [
-  //   { src: filecoin, link: "https://filecoin.io", alt: "FILECOIN LOGO" },
   // ],
 ];
 
@@ -600,6 +617,8 @@ export {
   platinumsponsor,
   goldsponsor,
   silversponsor,
+  poweredBy,
+  mediaPartners,
   htc2023sponsor,
   TeamInfo,
   // Mentor as JudgesInfo,
