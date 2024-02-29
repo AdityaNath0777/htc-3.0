@@ -22,15 +22,10 @@ import Aos from "aos";
 import 'aos/dist/aos.css'
 import backgroundimg4 from "./backgroundimg4.mp4";
 import {
-  // TOP_SECTION,
+
   TeamInfo,
   // JudgesInfo,
-  // sponsorLogos,
-  // frequentlyAskedQuestions,
-  // eventpartner,
-  // platinumsponsor,
-  // goldsponsor,
-  // silversponsor,
+
   htc2023sponsor,
   poweredBy,
   mediaPartners
