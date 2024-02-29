@@ -181,13 +181,13 @@ export default function HomePage(props) {
           </div>
           
           {/* <SponsorsHead /> */}
-          <h1 style={{color: "lightslategray", fontSize: "4rem"}}>Media Partners</h1><br></br>
+          <h1 style={{color: "#596f87", fontSize: "4rem"}}>Media Partners</h1><br></br>
           {/* <h1 style={{fontFamily: "Times New Roman"}}>COMING SOON</h1> */}
           <div className="eventpartners" data-aos="fade-left" data-aos-duration="700"  >
             {/* <h5 className="ssubhead">Our Sponsors</h5> */}
             {mediaPartners.map(SponsorGroup)}
           </div>
-          <h1 style={{color: "#667a8f"}}>Our Sponsors</h1><br></br>
+          <h1 style={{color: "#385574"}}>Our Sponsors</h1><br></br>
           {/* <h1 style={{fontFamily: "Times New Roman"}}>COMING SOON</h1> */}
           <div className="eventpartners" data-aos="fade-left" data-aos-duration="700"  >
             {/* <h5 className="ssubhead">Our Sponsors</h5> */}
