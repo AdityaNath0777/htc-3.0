@@ -33,8 +33,8 @@ import tezos from "../Module/Assets/devfolio/Tezos_Logo-White.svg";
 import replit from "../Module/Assets/sponsorsLogos/replit_copy.png";
 import solana from "../Module/Assets/sponsorsLogos/solanaLogo.png";
 
-import aops from "../Module/Assets/sponsorsLogos/AoPS_Main_Logo (1).png";
-import sybgen from "../Module/Assets/sponsorsLogos/SYBGEN LOGO Final/SYBGEN LOGO Final.png";
+import aops from "../Module/Assets/sponsorsLogos/AoPS_Main_Logo.png";
+import sybgen from "../Module/Assets/sponsorsLogos/SYBGEN LOGO Final.png";
 // import sybgen from "../Module/Assets/sponsorsLogos/SYBGEN LOGO Final/SYBGEN LOGO Final.jpg";
 
 import mentorboxx from "../Module/Assets/sponsorsLogos/mentorboxx.png";
