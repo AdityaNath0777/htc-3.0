@@ -11,8 +11,12 @@
 
 }
 
-.LogoSectionAbout h1 {
- 
+@media only screen and (max-width: 400px){
+
+  .about-heading h1 {
+   text-align: center; 
+  }
+
 }
 
 .LogoSectionAbout p {
@@ -120,10 +124,27 @@
   }
 }
 
+@media (max-width: 1400px){
+  .darklogo{
+    width: 35rem;
+  }
+}
+
+@media (max-width: 990px){
+  .LogoSectionAbout h1{
+    text-align: center;
+  }
+}
+
 @media (max-width: 570px) {
+  .darklogo{
+    width: 27rem;
+  }
+
   .logoS {
     margin-top: 10rem;
     margin-bottom: -10rem;
+    display: contents;
   }
 
   .Logo {
@@ -134,23 +155,6 @@
     font-size: 3.3rem;
   }
   .LogoSectionAbout p {
-    font-size: 1.3rem;
+    font-size: 1.8rem;
   }
-}
-
-@media (max-width: 570px) {
-  .logoS {
-    margin-top: 10rem;
-    margin-bottom: -10rem;
-    /* background-color: black; */
-    display: contents;
-  }
-
-  .Logo {
-    margin: 0 auto;
-  }
-
-  /* .darklogo{
-      left: 10rem;
-    } */
 }
