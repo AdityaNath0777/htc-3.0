@@ -254,10 +254,18 @@ a:link {
   .s-close {
     display: flex;
     display: block;
-    position: absolute;
-    right: 10px;
-    top: 20px;
+    position: relative;
+    // right: 10px;
+    // top: 20px;
 
+  }
+
+  .cross-nav {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    padding-right: 10px;
+    margin-bottom: 1rem
   }
 
   ul {
