@@ -33,6 +33,10 @@ import tezos from "../Module/Assets/devfolio/Tezos_Logo-White.svg";
 import replit from "../Module/Assets/sponsorsLogos/replit_copy.png";
 import solana from "../Module/Assets/sponsorsLogos/solanaLogo.png";
 
+import aops from "../Module/Assets/sponsorsLogos/AoPS_Main_Logo (1).png";
+import sybgen from "../Module/Assets/sponsorsLogos/SYBGEN LOGO Final/SYBGEN LOGO Final.png";
+// import sybgen from "../Module/Assets/sponsorsLogos/SYBGEN LOGO Final/SYBGEN LOGO Final.jpg";
+
 import mentorboxx from "../Module/Assets/sponsorsLogos/mentorboxx.png";
 import newton from "../Module/Assets/sponsorsLogos/newton.png";
 import grabon from "../Module/Assets/sponsorsLogos/grabon.png";
@@ -541,6 +545,8 @@ const htc2023sponsor = [
     // { src: solana, link: "", alt: "SOLANA LOGO" },
     { src: ETHIndia, link: "https://ethindia.co/", alt: "ETH INDIA LOGO" },
     { src: dekhoUni, link: "https://dekhouniversity.com/", alt: "DEKHO UNIVERSITY LOGO", class: "dekho-logo"},
+    { src: aops, link: "https://artofproblemsolving.com/", alt: "AoPS LOGO"},
+    { src: sybgen, link: "https://sybgenlearning.com/", alt: "SYBGEN LOGO" },
   ],
 
   // [
