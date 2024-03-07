@@ -1,7 +1,7 @@
 import React from "react";
 import "./logoSection.css";
 // import drklogo from "./darklogo.png"
-import lightLogo from "../navbar/hacklogo.png"
+// import lightLogo from "../navbar/hacklogo.png"
 import sym from "./sym.png";
 
 import logo1 from "./logo4.png";
@@ -15,8 +15,13 @@ function LogoSectionAbout() {
     <div className="LogoSectionAbout">
       {/* <h1>{MIDDLE_SECTION.TITLE}</h1> */}
       {/* <h2 style={{ fontWeight: "bold", color: "whitesmoke" }}>What is</h2> */}
-      <h1 style={{ fontWeight: "bolder", marginBottom: "24px", color:"#fff"}} >What is <span style={{ fontWeight: "bolder", marginBottom: "24px", color:"#00D1FF"}} > Hack the Crisis ?</span></h1>
-      <p style={{ textAlign: "justify" }}  >{MIDDLE_SECTION.LONG_DESCRIPTION}</p>
+      <h1 style={{ fontWeight: "bolder", marginBottom: "24px", color:"#fff"}} 
+        className="about-heading"
+      >
+        What is {' '}
+      <span style={{ fontWeight: "bolder", marginBottom: "24px", color:"#00D1FF"}} > 
+        Hack the Crisis ?</span></h1>
+      <p style={{ textAlign: "justify" }} >{MIDDLE_SECTION.LONG_DESCRIPTION}</p>
     </div>
   );
 }
