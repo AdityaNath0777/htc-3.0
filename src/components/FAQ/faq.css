@@ -136,6 +136,7 @@
 .accordion-item {
   border-style: hidden;
   border-radius: 10px;
+  cursor: pointer;
 }
 .sign {
   text-align: right;
@@ -147,10 +148,15 @@
   color: white;
   border-style: hidden;
   border-radius: 10px;
-  box-shadow: 2px 2px 15px white;
+  box-shadow: 2px 2px 11px white;
+  text-align: justify;
+  font-size: 1.3rem;
 }
 .accordion-title {
   display: flex;
+  justify-content: space-between;
+  text-align: left;
+  width: 100%;
   padding: 20px;
   background: #fff;
   margin: 5px;
@@ -171,10 +177,24 @@
   }
 }
 
+@media only screen and (max-width: 920px){
+  .accordion-title{
+    padding: 1rem;
+  }
+  .accordion{
+    font-size: 1.5rem;
+  }
+}
+
 @media only screen and (max-width: 727px) {
   .mainFAQ {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     justify-self: center;
+  }
+
+  .accordion{
+    padding: 0;
+    width: 85%;
   }
 }
