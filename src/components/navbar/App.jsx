@@ -9,7 +9,7 @@ import {
 import { HashLink as Link } from "react-router-hash-link";
 import hamLogo from "./ham.svg";
 import logoClose from "./ham-c.svg";
-// import hacklogo1 from "./hacklogo.png";
+import hacklogo1 from "./hacklogo.png";
 import styled from "styled-components";
 import "./styles.scss";
 
@@ -26,10 +26,12 @@ const Wrapper = styled.div`
     top: ${(props) => (props.toggle ? "-1000px" : "0px")};
     transition: top 1s;
     .nav-content {
-      width: 100%;
-      height: 100vh;
+      height: fit-content;
+      width: 50%;
       float: right;
-      background-color: #12093c;
+      border-top-left-radius: 1rem;
+      border-bottom-left-radius: 1rem;
+      background-color: #515151;
     }
   }
 `;
@@ -94,17 +96,8 @@ const NAVBAR = () => {
         </Link>
         <Wrapper toggle={toggle} className="nav-wrapper">
           <div className="nav-content" ref={navigation}>
-            <div className="my-container" style={{display: "flex", flexDirection: "column"}} >
-              {/* Hamburger Navbar Menu Button for Small Screen */}
-              <div className="cross-nav">
-                <img
-                  alt="img"
-                  className="s-close"
-                  onClick={() => setToggle(true)}
-                  src={logoClose}
-                />
-              </div>
-              <ul style={{fontSize: "2rem"}} >
+            <div className="my-container">
+              <ul>
                 {/* Left link section */}
                 {/* <li> */}
                 {/* <a
@@ -126,7 +119,6 @@ const NAVBAR = () => {
           Apply With Devfolio
         </button>
       </a>
-            
       </li> */}
                 <li className="list--general">
                   <Link to={`#home`}>
@@ -185,12 +177,18 @@ const NAVBAR = () => {
                   </Link>
                 </li>
 
+                {/* Hamburger Navbar Menu Button for Small Screen */}
+                <img
+                  alt="img"
+                  className="s-close"
+                  onClick={() => setToggle(true)}
+                  src={logoClose}
+                />
               </ul>
             </div>
           </div>
-          {/* <div className="ease" /> */}
+          <div className="ease" />
         </Wrapper>
-
         <img
           alt="img"
           className="s-open"
