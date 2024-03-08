@@ -86,15 +86,15 @@ button {
 //   // width: 30%;
 // }
 
-.my-container ul {
+ul {
   width: 100%;
   padding: 0;
   margin: 0;
   position: relative;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: center;
-  align-items: flex-start;
+  align-items: center;
 }
 
 .list--general {
@@ -215,7 +215,7 @@ a:link {
     display: flex;
     display: block;
     position: absolute;
-    right: 5px;
+    right: 10px;
     top: 20px;
     transition: all 1s ease;
   }
@@ -254,18 +254,10 @@ a:link {
   .s-close {
     display: flex;
     display: block;
-    position: relative;
-    // right: 10px;
-    // top: 20px;
+    position: absolute;
+    right: 10px;
+    top: 20px;
 
-  }
-
-  .cross-nav {
-    display: flex;
-    justify-content: right;
-    align-items: center;
-    padding-right: 10px;
-    margin-bottom: 1rem
   }
 
   ul {
