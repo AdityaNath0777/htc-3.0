@@ -92,9 +92,9 @@ button {
   margin: 0;
   position: relative;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: center;
-  align-items: flex-start;
+  align-items: center;
 }
 
 .list--general {
@@ -201,7 +201,17 @@ a:link {
 
   }
 
-
+  .my-container ul {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  
   .s-open {
     display: inline;
     position: absolute;
