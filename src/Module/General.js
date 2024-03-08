@@ -30,6 +30,10 @@ import startupNews from "../Module/Assets/sponsorsLogos/startupnews.png"
 import filecoin from "../Module/Assets/devfolio/Filecoin White.svg";
 import celo from "../Module/Assets/devfolio/Celo Logo Color.svg";
 import tezos from "../Module/Assets/devfolio/Tezos_Logo-White.svg";
+import xyz from "../Module/Assets/sponsorsLogos/xyz-white-logo.svg";
+import axure from "../Module/Assets/sponsorsLogos/axure.svg";
+import ivcake from "../Module/Assets/sponsorsLogos/cake_logo_blue_gray.svg";
+import mughalage from "../Module/Assets/sponsorsLogos/mughal age food.jpeg";
 import replit from "../Module/Assets/sponsorsLogos/replit_copy.png";
 import solana from "../Module/Assets/sponsorsLogos/solanaLogo.png";
 
@@ -547,6 +551,10 @@ const htc2023sponsor = [
     { src: dekhoUni, link: "https://dekhouniversity.com/", alt: "DEKHO UNIVERSITY LOGO", class: "dekho-logo"},
     { src: aops, link: "https://artofproblemsolving.com/", alt: "AoPS LOGO"},
     { src: sybgen, link: "https://sybgenlearning.com/", alt: "SYBGEN LOGO" },
+    { src: xyz, link:"https://gen.xyz/", alt: ".XYZ LOGO"},
+    { src: axure, link:"https://www.axure.com/", alt: "AXURE LOGO"},
+    { src: ivcake, link:"https://www.interviewcake.com/", alt: "INTERVIEW CAKE LOGO", class: "ivcake-logo"},
+    { src: mughalage, link:"https://mughalagefood.org/", alt: "MUGHAL AGE FOOD LOGO", class: "mughal-logo"},
   ],
 
   // [
