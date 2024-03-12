@@ -154,10 +154,13 @@ align-items: center;
 }
 .pow-By h1{
   color: #576370!important;
-  font-size: 3.4rem;
+  font-size: 4rem;
+}
+.pow-By .eventpartners {
+  padding-bottom: 0 !important;
 }
 .pow-By img{
-  width: 14rem!important;
+  width: 18rem!important;
 }
 .sponsorSection h5 {
   /* color:#ffe; */
