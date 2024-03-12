@@ -247,23 +247,24 @@ const Prizeinfo = [
     //Array 1
     {
       icon: <i className="first fas fa-4x fa-trophy"></i>,
-      type: "Overall First",
+      type: "First Prize",
       content:
-        "First Overall prize will be given to a project that outstands all other submissions",
+        "₹25,000",
     },
     {
-      icon: <i className=" second fas fa-4x fa-medal"></i>,
-      type: "Overall Second",
+      icon: <i className=" second fas fa-4x fa-trophy"></i>,
+      type: "Second Prize",
       content:
-        "Second Overall prize will be given to the second best project of the hackathon",
+        "₹15,000",
     },
     {
-      icon: <i className=" third fas fa-4x fa-skiing-nordic"></i>,
-      type: "Overall Third",
+      icon: <i className=" third fas fa-4x fa-trophy"></i>,
+      type: "Third Prize",
       content:
-        "Best third overall project of the hackathon will win some awesome prizes",
+        "₹10,000",
     },
   ],
+
   // [
   //Array 2
   //   {
@@ -297,7 +298,24 @@ const Prizeinfo = [
   //   },
   // ],
 ];
-
+const sponsorTrackInfo = [
+  [
+    {
+      // icon:  <i className=" tracks" style={{fontSize: "3rem"}} > Polygon Track</i>,
+      img: polygon,
+      type: "Best hack built on Polygon",
+      content: "$200",
+      link: "https://replit.com/@devfolio/Polygon-Smart-Contract-Template?v=1#README.md",
+    },
+    {
+      img: ETHIndia,
+      // icon:  <i className=" tracks" style={{fontSize: "3rem"}} > ETHIndia Track</i>,
+      type: "Best hack built on Ethereum",
+      content: "$100",
+      link: "https://ethindia.co/",
+    },
+  ],
+];
 /** Instructions
  * Insert only 3 or less then 3 members per array in `TeamInfo`, you can
  * create as many arrays you want all team members will be rendered
@@ -630,6 +648,7 @@ export {
   SOCIALS,
   FOOTER,
   Prizeinfo,
+  sponsorTrackInfo,
   ThemesInfo,
   // sponsorLogos,
   eventpartner,

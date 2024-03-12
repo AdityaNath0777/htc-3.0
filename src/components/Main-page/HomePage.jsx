@@ -5,8 +5,8 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import "./about.css";
 import { Logo, LogoSectionAbout } from "../logo-section/logoSection.jsx";
-import { FirstPrize, PrizeHeading } from "../prize tracks/prizes.jsx";
-import { Prizeinfo } from "../../Module/General.js";
+import { FirstPrize, PrizeHeading, SponsorTrack } from "../prize tracks/prizes.jsx";
+import { Prizeinfo, sponsorTrackInfo } from "../../Module/General.js";
 // import {Sponsor, SponsorsHead, SponsorUS} from "../Sponsors/sponsors.jsx";
 import { Sponsor } from "../Sponsors/sponsors.jsx";
 import Birds from "../Birds/birds.jsx";
@@ -64,7 +64,18 @@ function PrizeGroup(props) {
     <Row>
       {props.map((s, key) => (
         <Col key={key} className="" sm={12} lg={4} md={6}>
-          <FirstPrize icon={s.icon} type={s.type} content={s.content} />
+          <FirstPrize icon={s.icon} type={s.type} content={s.content} srcx={s.img} />
+        </Col>
+      ))}
+    </Row>
+  );
+}
+function SponsorTrackGroup(props) {
+  return (
+    <Row>
+      {props.map((s, key) => (
+        <Col key={key} className="" sm={12} lg={4} md={6}>
+          <SponsorTrack type={s.type} content={s.content} srcx={s.img} link={s.link} />
         </Col>
       ))}
     </Row>
@@ -154,10 +165,13 @@ export default function HomePage(props) {
         {/* ********Prizes here ***** */}
         <Row className="prizesection" id="prizes">
           <div data-aos='zoom-in' data-aos-duration='1000'  >
-            <PrizeHeading type="What's in it for you ?" />
+            <PrizeHeading type="Cash Prize Pool: ₹50,000" />
           </div>
           <div data-aos='fade-left' className="prize-group" data-aos-duration='1000'>
             {Prizeinfo.map(PrizeGroup)}
+          </div>
+          <div data-aos='fade-left' className="prize-group" data-aos-duration='1000'>
+            {sponsorTrackInfo.map(SponsorTrackGroup)}
           </div>
         </Row>
         {/* ********Prizes ending here ***** */}
