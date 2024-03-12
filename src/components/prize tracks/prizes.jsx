@@ -13,7 +13,21 @@ function FirstPrize(props) {
   return (
     <div className="Prizes">
       <div className="prizeicons">
-      {props.icon}
+        {props.icon}
+        <img src={props.srcx} alt={props.alt} className={props.className} />
+      </div>
+      <h2>{props.type}</h2>
+      <p>{props.content}</p>
+    </div>
+  );
+}
+function SponsorTrack(props) {
+  return (
+    <div className="Prizes sponsorPrizes">
+      <div className="prizeicons sponsorTrackIcons">
+        <a href={props.link} rel="noreferrer" target="_blank" >
+          <img src={props.srcx} alt={props.alt} />
+        </a>
       </div>
       <h2>{props.type}</h2>
       <p>{props.content}</p>
@@ -21,4 +35,4 @@ function FirstPrize(props) {
   );
 }
 
-export {FirstPrize, PrizeHeading};
+export {FirstPrize, PrizeHeading, SponsorTrack};
