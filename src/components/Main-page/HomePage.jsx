@@ -165,7 +165,7 @@ export default function HomePage(props) {
         {/* ********Prizes here ***** */}
         <Row className="prizesection" id="prizes">
           <div data-aos='zoom-in' data-aos-duration='1000'  >
-            <PrizeHeading type="Cash Prize Pool: ₹50,000" />
+            <PrizeHeading type="Cash Prize Pool: ₹40,000" />
           </div>
           <div data-aos='fade-left' className="prize-group" data-aos-duration='1000'>
             {Prizeinfo.map(PrizeGroup)}

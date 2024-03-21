@@ -262,7 +262,7 @@ const Prizeinfo = [
       icon: <i className=" third fas fa-4x fa-trophy"></i>,
       type: "Third Prize",
       content:
-        "₹10,000",
+        "Vouchers from .xyz & interview buddy",
     },
   ],
 
